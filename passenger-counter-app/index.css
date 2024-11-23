@@ -43,3 +43,9 @@ button {
     padding: 10px 20px;
     margin: 5px;
 }
+
+.dark 
+{
+    background-color: darkred;
+    border: rgb(105, 0, 0);
+}
