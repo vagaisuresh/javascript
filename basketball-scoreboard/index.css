@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 5rem;
+    margin: 5px 0;
+    padding-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid lightslategrey;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 2px;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.container > div {
+    background-color: aquamarine;
+    border: 1px solid rgb(114, 209, 177);
+    padding: 20px;
+}
