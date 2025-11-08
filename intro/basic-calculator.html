@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <main>
+            <div>
+                <label for="firstNumber">First Number</label>
+                <input type="text" id="firstNumber" />
+            </div>
+            <div>
+                <label for="secondNumber">Second Number</label>
+                <input type="text" id="secondNumber" />
+            </div>
+            <div>
+                <button type="button" onclick="calculateAdd()">Add</button>
+                <button type="button" onclick="calculateSubtract()">Subtract</button>
+                <button type="button" id="multiplyButton">Multiply</button>
+                <button type="button" id="divideButton">Divide</button>
+            </div>
+            <div>
+                <label for="result">Result</label>
+                <input type="text" id="result" disabled="disabled" />
+            </div>
+        </main>
+    </body>
+    <script src="./basic-calcularor.js"></script>
+</html>
